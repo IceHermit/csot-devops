@@ -1,0 +1,6 @@
+[Unit]
+Description=DevOps Hello World Oneshot Service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/echo "Hello World"

@@ -1,0 +1,9 @@
+[Unit]
+Description=Run Hello World Service Every Minute
+
+[Timer]
+Unit=07.service
+OnUnitActiveSec=1min
+
+[Install]
+WantedBy=timers.target
